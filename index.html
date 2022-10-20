@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка студента</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Карточка студента</h1>
+        <div class="info">
+                <img src="me.jpg" alt="это я" 
+                        class="avatar">
+                    <div class="info-text">
+                        <p>Имя, фамилия:</p>
+                        <h4><strong>Настя Сергеева</strong></h4>
+                        <p>Возраст:</p>
+                        <h4><strong>27 лет</strong></h4>
+                        <p>Опыт в программировании:</p>
+                        <h4><strong>1 месяц</strong></h4>
+                        <p>О себе:</p>
+                        <h4><strong>помогаю людям заговорить на английском языке, занимаюсь спортом: йога, бег, теннис.</strong></h4>
+                    </div>
+                      
+        </div>
+
+        <div class="goals">
+            <h3>Мои цели на обучение</h3>
+            <ul class="list">
+                <li>Уделять обучению минимум 2 часа каждый день</li>
+                <li>Освоить JavaScript</li>
+                <li>Почувствовать уверенность в своих знаниях</li>
+            </ul>
+        </div>
+
+        <div class="time">
+            <h3>Сколько времени смогу учиться</h3>
+            <table class="table table-1">
+                <tr>
+                    <td>Понедельник</td>
+                    <td>2 ч.</td>
+                </tr>
+                <tr>
+                    <td>Вторник</td>
+                    <td>2 ч.</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>3 ч.</td>
+                </tr>
+                <tr>
+                    <td>Четверг</td>
+                    <td>2 ч.</td>
+                </tr>
+                <tr>
+                    <td>Пятница</td>
+                    <td>2 ч.</td>
+                </tr>
+                <tr>
+                    <td>Суббота</td>
+                    <td>4 ч.</td>
+                </tr>
+                <tr>
+                    <td>Воскресенье</td>
+                    <td>4 ч.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="courses">
+            <h3>Мои пройденные курсы</h3>
+            <table class="table table-2">
+                <tr>
+                    <th>Название</th>
+                    <th>Автор</th>
+                    <th>Оценка курса</th>
+                </tr>
+                <tr>
+                    <td>HTML, CSS</td>
+                    <td>Анна Блок</td>
+                    <td>10/10</td>
+                </tr>
+                
+            </table>
+        </div>
+
+        <div class="socials">
+            <h3>Социальные сети</h3>
+            <div class="socials-row">
+                <div class="tg social-card">
+                    <img src="telegram.svg" alt="telegram" width="20px">
+                    <a href="https://t.me/nastispace" target="_blank">Telegram</a>
+                </div>
+                <div class="inst social-card">
+                    <img src="instagram.svg" alt="instagram" width="20px">
+                    <a href="https://instagram.com/sergeeva.nsts" target="_blank">Instagram</a>
+                </div>
+                <div class="vk social-card">
+                    <img src="vk.svg" alt="vk" width="20px">
+                    <a href="https://vk.com/srgva" target="_blank">VK</a>
+                </div>
+                <div class="git social-card">
+                    <img src="github.svg" alt="github" width="20px">
+                    <a href="https://github.com/anastasamg" target="_blank">Github</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>Связаться со мной</h3>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">    
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="number">Ваш номер телефона:</label>
+                        <input type="tel" id="number" placeholder="Введите номер">    
+                    </div>
+                </div>
+                
+                <input class="btn" type="submit" value="Связаться">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
